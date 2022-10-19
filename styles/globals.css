@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ h1, h2 ,h3 , h4 , h5 , h6{
+  @apply font-bold
+  } 
+  h1{
+@apply text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2{
+    @apply text-3xl sm:text-4xl
+  }
+  
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+  }
